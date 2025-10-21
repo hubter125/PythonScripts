@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import exp  ected_conditions as EC
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import time
 import os
@@ -44,6 +44,7 @@ time.sleep(10) # Little sketch if you submit instantly as it opens
 text_box.send_keys(Keys.ENTER)
 print(user)
 print(pwd)
+
 
 
 
