@@ -42,8 +42,8 @@ text_box = WebDriverWait(driver, 3600).until(
 text_box.send_keys("Your Name")
 time.sleep(10) # Little sketch if you submit instantly as it opens
 text_box.send_keys(Keys.ENTER)
-print(user)
-print(pwd)
+time.sleep(2)
+driver.quit()
 
 
 
